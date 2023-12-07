@@ -11,7 +11,7 @@ def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     This function takes a list of mixed values (integers or floats) and
     returns their sum as a float.
     """
-    sum_total: float = 0
+    sum_total: float = 0.0
     for value in mxd_lst:
         sum_total += value
 
