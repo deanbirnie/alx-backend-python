@@ -6,13 +6,13 @@ deeper into arrays.
 from typing import List, Tuple
 
 
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     This function allows you to look deeper into an array.
     """
-    zoomed_in: List[int] = [
+    zoomed_in: List = [
         item for item in lst
-        for _ in range(factor)
+        for i in range(int(factor))
     ]
     return zoomed_in
 
