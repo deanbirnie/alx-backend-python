@@ -3,7 +3,7 @@
 
 
 def add(a: float, b: float) -> float:
-  """
-  This function adds two floats using strongly typed parameters
-  """
-  return a + b
+    """
+    This function adds two floats using strongly typed parameters
+    """
+    return a + b
