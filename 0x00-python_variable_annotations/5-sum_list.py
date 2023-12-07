@@ -1,4 +1,4 @@
-#!/usr/bin/ennv python3
+#!/usr/bin/env python3
 """
 This module contains a funtion which takes a list input of
 floats and returns their sum as a flot.
