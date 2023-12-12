@@ -17,4 +17,4 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         asyncio.create_task(wait_random(max_delay)) for _ in range(n)
     ]
 
-    return [routine for routine in asyncio.as_completed(coroutines)]
+    return [await routine for routine in asyncio.as_completed(coroutines)]
